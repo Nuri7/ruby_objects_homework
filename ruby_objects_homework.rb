@@ -42,8 +42,7 @@ puts calc1.divide;
 
 class Elevator
 
-	attr_reader :num1
-	attr_writer	:num2
+	attr_accessor
 
 	def initialize
 		@floor = 0
